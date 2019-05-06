@@ -1,0 +1,30 @@
+html, body {
+  height: 100%;
+  min-width: 1500px;
+  background: #f5f5f5;
+  font-size: $fontsize-12;
+}
+
+
+code,kbd,pre,samp,xmp {
+  font-family: Consolas,Monaco,DejaVu Sans Mono,Bitstream Vera Sans Mono,monospace
+}
+
+textarea {
+  overflow: auto;
+  resize: none;
+}
+
+label,summary {
+  cursor: default;
+}
+
+// 内容容器
+.container {
+  width: 100%;
+  max-width: 1200px;
+  min-height: 100%;
+  margin: 0 auto;
+  // padding-bottom: -119-40px;
+  background: $DominantFontColorfff;
+}
