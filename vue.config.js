@@ -6,6 +6,7 @@ module.exports = {
   pages,
   productionSourceMap: false, // 生产环境禁用sourcemap
   devServer: {
+    port: 8083,
     // historyApiFallback: {
     //   rewrites: [
     //     {

@@ -1,7 +1,6 @@
 import { createVue, createRouter, createStore } from '../../utils/index'
 
 import Home from './Home.vue'
-import CourseContainer from './CourseContainer.vue'
 
 const routes = [
   {
@@ -9,18 +8,6 @@ const routes = [
     name: 'home',
     component: Home,
   },
-  {
-    path: '/course',
-    component: CourseContainer,
-    children: [
-      {
-        // 课程目录
-        name: 'course_catalog',
-        path: 'catalog',
-        component: () => import(/* webpackChunkName: "quiz-chunk" */ './CourseCatalog.vue'),
-      }
-    ],
-  }
 ]
 
 const modules = {
